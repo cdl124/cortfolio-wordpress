@@ -1,0 +1,255 @@
+0000.001 (0) Opened log file at time: Thu, 16 Nov 2017 01:41:22 +0000 on http://www.cortneydrummond.dev
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.12 WP: 4.8.3 PHP: 5.5.24 (apache2handler, Windows NT DESKTOP-O0C1GBL 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.6.24 WPLANG: en_US Server: Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.5.24 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 34.4M | 34.8M) multisite: N openssl: OpenSSL 1.0.1m 19 Mar 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 27278.3 MB
+0000.031 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.043 (0) Semaphore (fd, wp_options) being initialised
+0000.077 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.098 (0) Set semaphore last lock (fd) time to 2017-11-16 01:41:22
+0000.105 (0) Semaphore lock (fd) complete
+0000.133 (0) Backup run: resumption=0, nonce=4bea0b5a0221, begun at=1510796482 (0s ago), job type=backup
+0000.147 (0) Scheduling a resumption (1) after 300 seconds (1510796782) in case this run gets aborted
+0000.179 (0) Checking if we have a zip executable available
+0000.191 (0) Creation of backups of directories: beginning
+0000.211 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.089 (0) Total entities for the zip file: 738 directories, 3718 files (0 skipped as non-modified), 60.2 MB
+0004.116 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.231 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 100 files added (on-disk size: 133 KB)
+0004.348 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 200 files added (on-disk size: 133 KB)
+0004.501 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 300 files added (on-disk size: 133 KB)
+0004.637 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 400 files added (on-disk size: 133 KB)
+0004.850 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 500 files added (on-disk size: 133 KB)
+0004.870 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.3 MB, 3718 files batched, 501 (502) added so far); re-opening (prior size: 133 KB)
+0017.264 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 600 files added (on-disk size: 4092.8 KB)
+0017.373 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 700 files added (on-disk size: 4092.8 KB)
+0017.505 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 800 files added (on-disk size: 4092.8 KB)
+0017.620 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 900 files added (on-disk size: 4092.8 KB)
+0017.733 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1000 files added (on-disk size: 4092.8 KB)
+0017.750 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5 MB, 3718 files batched, 501 (1003) added so far); re-opening (prior size: 4092.8 KB)
+0025.360 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1100 files added (on-disk size: 5990.7 KB)
+0025.494 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1200 files added (on-disk size: 5990.7 KB)
+0025.648 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1300 files added (on-disk size: 5990.7 KB)
+0025.793 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1400 files added (on-disk size: 5990.7 KB)
+0025.939 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1500 files added (on-disk size: 5990.7 KB)
+0025.957 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.7 MB, 3718 files batched, 501 (1504) added so far); re-opening (prior size: 5990.7 KB)
+0035.211 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1600 files added (on-disk size: 9251.6 KB)
+0035.322 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1700 files added (on-disk size: 9251.6 KB)
+0035.459 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1800 files added (on-disk size: 9251.6 KB)
+0035.626 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 1900 files added (on-disk size: 9251.6 KB)
+0035.749 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2000 files added (on-disk size: 9251.6 KB)
+0035.777 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.3 MB, 3718 files batched, 501 (2005) added so far); re-opening (prior size: 9251.6 KB)
+0043.238 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2100 files added (on-disk size: 11839 KB)
+0043.363 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2200 files added (on-disk size: 11839 KB)
+0043.469 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2300 files added (on-disk size: 11839 KB)
+0043.598 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2400 files added (on-disk size: 11839 KB)
+0043.714 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2500 files added (on-disk size: 11839 KB)
+0043.740 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18 MB, 3718 files batched, 501 (2506) added so far); re-opening (prior size: 11839 KB)
+0048.093 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2600 files added (on-disk size: 17487.6 KB)
+0048.298 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2700 files added (on-disk size: 17487.6 KB)
+0048.488 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2800 files added (on-disk size: 17487.6 KB)
+0048.651 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 2900 files added (on-disk size: 17487.6 KB)
+0048.818 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 3000 files added (on-disk size: 17487.6 KB)
+0048.837 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.2 MB, 3718 files batched, 501 (3007) added so far); re-opening (prior size: 17487.6 KB)
+0049.361 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 3100 files added (on-disk size: 18302.1 KB)
+0049.536 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 3200 files added (on-disk size: 18302.1 KB)
+0049.702 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 3300 files added (on-disk size: 18302.1 KB)
+0049.889 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 3400 files added (on-disk size: 18302.1 KB)
+0050.076 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 3500 files added (on-disk size: 18302.1 KB)
+0050.090 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.2 MB, 3718 files batched, 501 (3508) added so far); re-opening (prior size: 18302.1 KB)
+0050.966 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 3600 files added (on-disk size: 19318 KB)
+0051.084 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip.tmp: 3700 files added (on-disk size: 19318 KB)
+0053.406 (0) Created plugins zip (0) - 21424.4 KB in 53.2 s (402.9 KB/s) (sha1: 09dddb97292aba5785663bc69ec5ab42d96c3dae, sha256: 5260a315d7d77b5d4ba433c1286ea7ba3366f72103a9433759d809fa989a6aeb)
+0053.420 (0) Beginning creation of dump of themes (split every: 400 MB)
+0053.598 (0) Total entities for the zip file: 36 directories, 214 files (0 skipped as non-modified), 5.2 MB
+0053.668 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0053.766 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0057.840 (0) Created themes zip (0) - 3992.2 KB in 4.4 s (907.5 KB/s) (sha1: fe7ff8de03e9d335b27881cfa0c1b6676a532624, sha256: dbe50415f7e1489e79140ecfeb55349d6d4cb0fb25bcba459d8929ec845f5092)
+0057.853 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0057.858 (0) Looking for candidates to back up in: C:\Users\cdlan\Documents\Websites\www.cortneydrummond.dev/wp-content/uploads
+0057.864 (0) finding files: 2017: adding to list (1)
+0057.870 (0) finding files: cache: adding to list (2)
+0057.881 (0) finding files: siteorigin-widgets: adding to list (3)
+0057.892 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0058.339 (0) Total entities for the zip file: 59 directories, 503 files (0 skipped as non-modified), 102.5 MB
+0058.388 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 503 files batched, 69 (69) added so far); re-opening (prior size: 0 KB)
+0060.235 (0) A useful amount of data was added after this amount of zip processing: 2.8 s (normalised: 2.7 s, rate: 9389.2 KB/s)
+0060.246 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.762836933136, normalised_time=2.7265462554996, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=57687046)
+0060.275 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip.tmp: 100 files added (on-disk size: 25550.1 KB)
+0060.339 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip.tmp: 200 files added (on-disk size: 25550.1 KB)
+0060.380 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 55 MB added on this batch (55.1 MB, 503 files batched, 159 (228) added so far); re-opening (prior size: 25550.1 KB)
+0065.912 (0) A useful amount of data was added after this amount of zip processing: 6.4 s (normalised: 6.4 s, rate: 8765.2 KB/s)
+0066.028 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip.tmp: 300 files added (on-disk size: 81197 KB)
+0066.191 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip.tmp: 400 files added (on-disk size: 81197 KB)
+0066.695 (0) Zip: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip.tmp: 500 files added (on-disk size: 81197 KB)
+0073.676 (0) Created uploads zip (0) - 101447.7 KB in 15.8 s (6435.5 KB/s) (sha1: 889b85a72effb4d0f617758b39523aecf3b10d0d, sha256: 0ebd156aae7e8c52e7e4741fa4f5e34c8febfc79ab2e85073959737cbd0958a6)
+0073.709 (0) Beginning backup of other directories found in the content directory (index: 0)
+0073.719 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0073.737 (0) Looking for candidates to back up in: C:\Users\cdlan\Documents\Websites\www.cortneydrummond.dev/wp-content
+0073.745 (0) finding files: advanced-cache.php: adding to list (1)
+0073.752 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0073.759 (0) finding files: cache: skipping: excluded by options
+0073.766 (0) finding files: index.php: adding to list (2)
+0073.773 (0) finding files: plugins: skipping: this is the plugins directory
+0073.780 (0) finding files: themes: skipping: this is the themes directory
+0073.787 (0) finding files: updraft: skipping: this is the updraft directory
+0073.794 (0) finding files: upgrade: skipping: excluded by options
+0073.807 (0) finding files: uploads: skipping: this is the uploads directory
+0073.815 (0) finding files: wp-cache-config.php: adding to list (3)
+0073.908 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+0073.955 (0) Created others zip (0) - 2.8 KB in 0.1 s (26.1 KB/s) (sha1: f985601e7c0a196f8759e58f8511197520b0b849, sha256: 8971e82cc336076ee0881433ec2c4d2931db9bbe5453b142e1990b2fda2de411)
+0073.979 (0) Saving backup status to database (elements: 8)
+0073.997 (0) Beginning creation of database dump (WordPress DB)
+0074.071 (0) Table wp_options: Total expected rows (approximate): 312
+0074.219 (0) Table wp_options: Total rows added: 316 in 0.14 seconds
+0074.234 (0) Table wp_options: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_options.table.gz - 232.1 KB)
+0074.256 (0) Table wp_users: Total expected rows (approximate): 0
+0074.283 (0) Table wp_users: Total rows added: 1 in 0.02 seconds
+0074.295 (0) Table wp_users: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_users.table.gz - 0.6 KB)
+0074.323 (0) Table wp_usermeta: Total expected rows (approximate): 23
+0074.350 (0) Table wp_usermeta: Total rows added: 27 in 0.02 seconds
+0074.370 (0) Table wp_usermeta: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_usermeta.table.gz - 1.3 KB)
+0074.434 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0074.523 (0) Table wp_commentmeta: Total rows added: 0 in 0.06 seconds
+0074.606 (0) Table wp_commentmeta: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0074.822 (0) Table wp_comments: Total expected rows (approximate): 1
+0074.901 (0) Table wp_comments: Total rows added: 0 in 0.06 seconds
+0074.929 (0) Table wp_comments: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_comments.table.gz - 0.5 KB)
+0075.031 (0) Table wp_links: Total expected rows (approximate): 0
+0075.090 (0) Table wp_links: Total rows added: 0 in 0.04 seconds
+0075.132 (0) Table wp_links: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_links.table.gz - 0.4 KB)
+0075.231 (0) Table wp_postmeta: Total expected rows (approximate): 538
+0075.557 (0) Table wp_postmeta: Total rows added: 1002 in 0.30 seconds
+0075.570 (0) Table wp_postmeta: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_postmeta.table.gz - 47.2 KB)
+0075.602 (0) Table wp_posts: Total expected rows (approximate): 246
+0075.732 (0) Table wp_posts: Total rows added: 276 in 0.12 seconds
+0075.751 (0) Table wp_posts: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_posts.table.gz - 32.7 KB)
+0075.779 (0) Table wp_term_relationships: Total expected rows (approximate): 10
+0075.808 (0) Table wp_term_relationships: Total rows added: 13 in 0.02 seconds
+0075.847 (0) Table wp_term_relationships: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0075.878 (0) Table wp_term_taxonomy: Total expected rows (approximate): 4
+0075.901 (0) Table wp_term_taxonomy: Total rows added: 5 in 0.02 seconds
+0075.912 (0) Table wp_term_taxonomy: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0075.961 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0075.981 (0) Table wp_termmeta: Total rows added: 0 in 0.02 seconds
+0075.991 (0) Table wp_termmeta: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_termmeta.table.gz - 0.4 KB)
+0076.022 (0) Table wp_terms: Total expected rows (approximate): 3
+0076.041 (0) Table wp_terms: Total rows added: 5 in 0.02 seconds
+0076.059 (0) Table wp_terms: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_terms.table.gz - 0.5 KB)
+0076.084 (0) Table wp_aiowps_events: Total expected rows (approximate): 0
+0076.108 (0) Table wp_aiowps_events: Total rows added: 0 in 0.02 seconds
+0076.119 (0) Table wp_aiowps_events: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_events.table.gz - 0.4 KB)
+0076.140 (0) Table wp_aiowps_failed_logins: Total expected rows (approximate): 0
+0076.159 (0) Table wp_aiowps_failed_logins: Total rows added: 0 in 0.01 seconds
+0076.168 (0) Table wp_aiowps_failed_logins: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_failed_logins.table.gz - 0.4 KB)
+0076.199 (0) Table wp_aiowps_global_meta: Total expected rows (approximate): 0
+0076.230 (0) Table wp_aiowps_global_meta: Total rows added: 0 in 0.01 seconds
+0076.258 (0) Table wp_aiowps_global_meta: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_global_meta.table.gz - 0.4 KB)
+0076.292 (0) Table wp_aiowps_login_activity: Total expected rows (approximate): 19
+0076.338 (0) Table wp_aiowps_login_activity: Total rows added: 20 in 0.04 seconds
+0076.352 (0) Table wp_aiowps_login_activity: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_login_activity.table.gz - 0.7 KB)
+0076.385 (0) Table wp_aiowps_login_lockdown: Total expected rows (approximate): 0
+0076.444 (0) Table wp_aiowps_login_lockdown: Total rows added: 0 in 0.04 seconds
+0076.472 (0) Table wp_aiowps_login_lockdown: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_login_lockdown.table.gz - 0.4 KB)
+0076.535 (0) Table wp_aiowps_permanent_block: Total expected rows (approximate): 0
+0076.581 (0) Table wp_aiowps_permanent_block: Total rows added: 0 in 0.04 seconds
+0076.597 (0) Table wp_aiowps_permanent_block: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_permanent_block.table.gz - 0.4 KB)
+0076.632 (0) Table wp_modalsimple: Total expected rows (approximate): 0
+0076.664 (0) Table wp_modalsimple: Total rows added: 1 in 0.03 seconds
+0076.679 (0) Table wp_modalsimple: finishing file (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_modalsimple.table.gz - 0.9 KB)
+0076.711 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_options.table.gz (1/19): adding to final database dump
+0076.829 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_users.table.gz (2/19): adding to final database dump
+0076.871 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_usermeta.table.gz (3/19): adding to final database dump
+0076.891 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_commentmeta.table.gz (4/19): adding to final database dump
+0076.909 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_comments.table.gz (5/19): adding to final database dump
+0076.927 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_links.table.gz (6/19): adding to final database dump
+0076.947 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_postmeta.table.gz (7/19): adding to final database dump
+0077.047 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_posts.table.gz (8/19): adding to final database dump
+0077.079 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_term_relationships.table.gz (9/19): adding to final database dump
+0077.092 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_term_taxonomy.table.gz (10/19): adding to final database dump
+0077.101 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_termmeta.table.gz (11/19): adding to final database dump
+0077.110 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_terms.table.gz (12/19): adding to final database dump
+0077.125 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_events.table.gz (13/19): adding to final database dump
+0077.139 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_failed_logins.table.gz (14/19): adding to final database dump
+0077.160 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_global_meta.table.gz (15/19): adding to final database dump
+0077.275 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_login_activity.table.gz (16/19): adding to final database dump
+0077.323 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_login_lockdown.table.gz (17/19): adding to final database dump
+0077.351 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_aiowps_permanent_block.table.gz (18/19): adding to final database dump
+0077.367 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db-table-wp_modalsimple.table.gz (19/19): adding to final database dump
+0077.419 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db.gz: finished writing out complete database file (296 KB)
+0077.553 (0) Total database tables backed up: 19 (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db.gz, size: 323037, sha256)
+0077.637 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0077.667 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0077.682 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0077.700 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-others.zip: others: This file has not yet been successfully uploaded: will queue
+0077.721 (0) backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db.gz: db: This file has not yet been successfully uploaded: will queue
+0077.736 (0) Saving backup history. Total backup size: 124.2 MB
+0077.778 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0077.832 (0) Cloud backup selection (1/1): dropbox (last)
+0077.846 (0) Beginning dispatch of backup to remote (dropbox)
+0077.855 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0077.877 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0078.163 (0) Dropbox quota usage: used=703.8 MB, total=2048 MB, available=1344.2 MB
+0078.186 (0) Dropbox: Attempt to upload: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip to: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip
+0080.078 (0) Dropbox chunked upload: 4.8 % uploaded (AAAAAAAAAA8pWQ5ZyIgt1w, 1048576, 4608 KB)
+0086.812 (0) Dropbox chunked upload: 26.3 % uploaded (AAAAAAAAAA8pWQ5ZyIgt1w, 5767168, 6144 KB)
+0094.503 (0) Dropbox chunked upload: 55 % uploaded (AAAAAAAAAA8pWQ5ZyIgt1w, 12058624, 7168 KB)
+0103.398 (0) Dropbox chunked upload: 88.4 % uploaded (AAAAAAAAAA8pWQ5ZyIgt1w, 19398656, 7168 KB)
+0108.536 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAA8pWQ5ZyIgt1w, 21938610, 7168 KB)
+0110.259 (0) Recording as successfully uploaded: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip (b2956c14243d5927855e8f2ce533e352)
+0110.615 (0) Deleting local file: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip: OK
+0110.637 (0) Dropbox: File upload success (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-plugins.zip): 21424 KB in 32s (660 KB/s)
+0111.017 (0) Dropbox quota usage: used=724.7 MB, total=2048 MB, available=1323.3 MB
+0111.026 (0) Dropbox: Attempt to upload: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-themes.zip to: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-themes.zip
+0115.230 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABAQOSbXkb_MOw, 4088029, 7168 KB)
+0118.529 (0) Recording as successfully uploaded: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-themes.zip (6eea749ddc5fa4ac0664facea66acd1c)
+0118.565 (0) Deleting local file: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-themes.zip: OK
+0118.570 (0) Dropbox: File upload success (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-themes.zip): 3992 KB in 7s (529 KB/s)
+0118.902 (0) Dropbox quota usage: used=728.6 MB, total=2048 MB, available=1319.4 MB
+0118.911 (0) Dropbox: Attempt to upload: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip to: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip
+0126.499 (0) Dropbox chunked upload: 7.1 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 7340032, 8192 KB)
+0135.794 (0) Dropbox chunked upload: 15.1 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 15728640, 7680 KB)
+0145.102 (0) Dropbox chunked upload: 22.7 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 23592960, 7168 KB)
+0154.284 (0) Dropbox chunked upload: 29.8 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 30932992, 6656 KB)
+0161.978 (0) Dropbox chunked upload: 36.3 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 37748736, 7680 KB)
+0169.353 (0) Dropbox chunked upload: 43.9 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 45613056, 9216 KB)
+0181.938 (0) Dropbox chunked upload: 53 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 55050240, 9216 KB)
+0191.878 (0) Dropbox chunked upload: 62.1 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 64487424, 8192 KB)
+0201.291 (0) Dropbox chunked upload: 70.2 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 72876032, 7680 KB)
+0210.200 (0) Dropbox chunked upload: 77.7 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 80740352, 7680 KB)
+0218.795 (0) Dropbox chunked upload: 85.3 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 88604672, 7680 KB)
+0226.822 (0) Dropbox chunked upload: 92.9 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 96468992, 8192 KB)
+0234.379 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABFXoyY5s_MOfQ, 103882414, 8192 KB)
+0239.408 (0) Recording as successfully uploaded: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip (89c9da0b2079adfad18fa36ae78f04a4)
+0239.679 (0) Deleting local file: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip: OK
+0239.691 (0) Dropbox: File upload success (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-uploads.zip): 101447 KB in 120s (839 KB/s)
+0240.048 (0) Dropbox quota usage: used=827.6 MB, total=2048 MB, available=1220.4 MB
+0240.068 (0) Dropbox: Attempt to upload: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-others.zip to: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-others.zip
+0240.794 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABIL4uYowu7U-g, 2896, 8192 KB)
+0241.906 (0) Recording as successfully uploaded: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-others.zip (0f5d5a5249ae4b667c006ec4090f17e5)
+0242.013 (0) Deleting local file: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-others.zip: OK
+0242.022 (0) Dropbox: File upload success (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-others.zip): 2 KB in 1s (1 KB/s)
+0242.318 (0) Dropbox quota usage: used=827.7 MB, total=2048 MB, available=1220.3 MB
+0242.331 (0) Dropbox: Attempt to upload: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db.gz to: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db.gz
+0243.200 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABPJVp5ydwAqBQ, 323037, 8192 KB)
+0244.661 (0) Recording as successfully uploaded: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db.gz (3cdf7644aa09ffb7278465252d115a74)
+0244.718 (0) Deleting local file: backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db.gz: OK
+0244.726 (0) Dropbox: File upload success (backup_2017-11-15-1741_Cortney_Drummond_4bea0b5a0221-db.gz): 315 KB in 2s (131 KB/s)
+0244.802 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0244.812 (0) Number of backup sets in history: 1; groups (db): 1
+0244.838 (0) Examining (for databases) backup set with group_id=0, nonce=4bea0b5a0221, datestamp=1510796482 (Nov 16 2017 01:41:22)
+0244.887 (0) This backup set is the backup set just made, so will not be deleted.
+0244.887 (0) Number of backup sets in history: 1; groups (files): 1
+0244.915 (0) Examining (for files) backup set with nonce=4bea0b5a0221, datestamp=1510796482 (Nov 16 2017 01:41:22)
+0244.915 (0) This backup set is the backup set just made, so will not be deleted.
+0244.924 (0) This backup set is the backup set just made, so will not be deleted.
+0244.925 (0) This backup set is the backup set just made, so will not be deleted.
+0244.925 (0) This backup set is the backup set just made, so will not be deleted.
+0244.926 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0244.944 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0244.967 (0) Resume backup (4bea0b5a0221, 0): finish run
+0244.985 (0) Decremented the semaphore (fd) by 1
+0245.001 (0) Semaphore (fd) unlocked
+0245.008 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0245.035 (0) Fetching RSS news feed
+0245.326 (0) Fetched RSS news feed; result is a: SimplePie
+0245.419 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: cortn...
+0247.743 (0) The backup apparently succeeded and is now complete

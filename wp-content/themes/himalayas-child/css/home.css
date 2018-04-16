@@ -1,0 +1,25 @@
+/* CSS for Homepage - all it does is hide the header when the user is at the top of the page. */
+
+/* You don't see the header... */
+.transparent .header-wrapper,
+.non-transparent .header-wrapper {
+opacity: 0;
+}
+
+.transparent .header-wrapper a,
+.non-transparent .header-wrapper a {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* ... and now you do! */
+.transparent .header-wrapper.stick,
+.non-transparent .header-wrapper.stick {
+  opacity: 1;
+}
+
+.transparent .header-wrapper.stick a,
+.non-transparent .header-wrapper.stick a {
+  pointer-events: auto;
+  cursor: auto;
+}

@@ -1,0 +1,132 @@
+/*
+Theme Name: Cortfolio
+Theme URI: http://cortneydrummond.com
+Description: A child theme of Hamilton for Cortney's portfolio website.
+Author: Cortney Drummond
+Author URI: http://cortneydrummond.com
+Template: hamilton
+Version: 0.1.0
+*/
+
+@import url("../hamilton/style.css");
+
+body {
+	font-family: 'Raleway', 'Helvetica Neue', sans-serif;
+}
+
+.site-header {
+	padding: 85px 0;
+}
+
+.site-header .site-title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.page-header {
+	min-height: 0px !important;
+	margin: 0 auto 70px auto;
+}
+
+.section-inner .thin {
+  max-width: 100%;
+	margin-top: -20px;
+}
+
+/* Homepage CSS */
+
+.home .title { display: none; } /* Hides header on homepage */
+
+.entry-content .hmpg-blurb { line-height: 1; }
+
+.wga-item {
+	opacity: 0;
+	position: relative;
+	text-align: center;
+	padding: 1em;
+	margin: 0 1rem;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+.wga-item a {
+	color: #fff;
+	border-bottom: 3px solid transparent;
+	transition: 500ms;
+}
+
+/* .wga-item a:hover { border-color: #fff; } */
+
+.web-wga { background-color: #AD3337; }
+.graphic-wga { background-color: #C09642; }
+.apparel-wga { background-color: #7B824E;}
+.contact-wga { background-color: #2C2841; }
+
+
+@media screen and (max-width: 780px) {
+	.hmpg-blurb { text-align: center; }
+	.wga-item { font-size: 100%; }
+
+	.panel-grid-cell { margin-bottom: 0px !important; }
+
+	.site-header {
+		padding: 50px 0;
+	}
+	.site-header .site-title {
+		margin-right: 30px;
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 620px) {
+	.site-header { padding: 50px 0; }
+	.site-header .site-title { font-size: 1.3em; }
+	.menu { margin: 20px auto; }
+}
+
+/* Web, Graphics, and Apparel page CSS */
+
+/* .foogallery-container { opacity: 0; } */
+
+.bf-item { max-width: 100%; }
+
+.gallery-thumb {
+	transition: .25s ease-out;
+}
+.gallery-thumb:hover {
+	filter: brightness(0.4);
+}
+
+.wow-modal-window {
+	position: absolute !important;
+	padding: 0 30px 30px 30px;
+	overflow-y: visible;
+}
+.wow-modal-window img {
+	padding-bottom: 20px;
+}
+
+/* Contact Me CSS */
+
+.page-id-30 .entry-content a { border-bottom: 0px solid; }
+
+.contact-icon {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 30%;
+}
+
+.contact-row { text-align: center; }
+.contact-row i { width: 55px; height: 55px; }
+
+.email-icon, .linkedin-icon, .github-icon, .pwcd-icon {
+	opacity: 0;
+	font-size: 55px;
+}
+
+.pwcd-icon a img {
+	width: 55px;
+	margin-bottom: -0.1em;
+	transition: all .2s ease-in-out;
+}
+.pwcd-icon img:hover { opacity: 0.4; }

@@ -1,0 +1,212 @@
+/*
+ Theme Name:     Cortfolio v2
+ Theme URI:      https://themegrill.com/themes/himalayas/
+ Description:    Himalayas Child Theme
+ Author:         Cortney Drummond
+ Author URI:     www.cortneydrummond.com
+ Template:       himalayas
+ Version:        1.0.0
+*/
+
+@import url("../himalayas/style.css");
+
+/* Himalayas Customization Starts Here */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hmpg-blurb, .tiny-hmpg-blurb {
+  padding: 0.75em 1em 0 1em;
+  text-align: center;
+  font-family: 'Crimson Text', sans-serif;
+  font-style: italic;
+  line-height: 1;
+  font-size: 1.5em;
+}
+
+.tiny-hmpg-blurb {
+  font-size: 1em;
+  margin-top: 2em;
+}
+.tiny-hmpg-blurb a { text-decoration: underline; }
+
+.ow-button-hover, .sow-submit-wrapper input {
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+@media (max-width: 979px) {
+  .ow-button-hover {
+    display: block;
+    width: 90%;
+  }
+  .hmpg-blurb {
+    font-size: 1em;
+  }
+}
+
+.ow-button-hover:hover, .sow-submit-wrapper input:hover {
+  transform: scale(1.075);
+}
+
+.scrollup {
+  z-index: 99;
+}
+
+/* The menu hides when the user is all the way at the top;
+upon scrolldown, it appears, and sticks.
+The rules below make that possible.... */
+
+/* This code pushes up homepage content to fill where the header was... */
+.non-stick.non-transparent #content,
+.home.stick.non-transparent #content {
+  margin-top: -85px;
+}
+
+.entry-title {
+  margin-left: -999px;
+}
+article.hentry h1.entry-title {
+    margin-bottom: -60px;
+}
+
+.home #main {
+  margin-top: 0px;
+}
+
+/* ***** BEGIN Header CSS ***** */
+
+.transparent .header-wrapper,
+.transparent .header-wrapper.stick,
+.non-transparent .header-wrapper,
+.non-transparent .header-wrapper.stick {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+.header-wrapper #site-navigation .menu li a,
+.header-wrapper.stick #site-navigation .menu li a {
+  color: #f7b3c0;
+}
+.header-wrapper #site-navigation .menu li a:hover {
+  color: #333333;
+}
+
+.home-search { display: none; }
+
+.header-wrapper #site-navigation .menu li a {
+  font-size: 1.5em;
+}
+
+.menu-search-wrapper {
+  margin-top: 0.5em;
+}
+
+.menu-toggle {
+  color: #f7b3c0;
+}
+
+#site-navigation .menu-primary-container,
+#site-navigation div.menu {
+  background: #ffffff none repeat scroll 0 0;
+}
+
+/* ***** END Header CSS ***** */
+
+.widget ul li {
+  color: transparent;
+}
+
+.sow-slider-image-wrapper h3 {
+  display: block;
+  margin: auto;
+}
+
+.so-widget-sow-hero-default-8dc7de7cd9af .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper .sow-hero-buttons {
+  margin-top: 0px;
+}
+
+@media all and (max-width: 768px) {
+  .logged-in.customize-support .header-wrapper.stick,
+  .home.logged-in.customize-support .header-wrapper {
+    top: 0px;
+  }
+}
+
+/* Posts */
+
+.stick.non-transparent #content {
+  margin-top: 100px;
+}
+.entry-meta, .widget-title {
+  display: none;
+}
+
+.post-description {
+  margin: auto;
+  padding: 0 2em 0 2em;
+  max-width: 500px;
+}
+
+.post-description p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.qa-parallax .sow-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.qa-parallax .sow-sub-headline {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+}
+
+.cweb-columns {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Contact Me section */
+
+.contact-icon {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 30%;
+}
+
+.contact-row { text-align: center; }
+.contact-row i { width: 55px; height: 55px; }
+.contact-row a { color: #333333; }
+.contact-row a:hover { color: #333333; opacity: 0.4; }
+
+.email-icon, .linkedin-icon, .github-icon, .pwcd-icon {
+	font-size: 55px;
+  color: #333333;
+}
+
+.pwcd-icon { height: 100%; vertical-align: text-bottom; }
+
+.pwcd-icon a img {
+	width: 55px;
+	display: flex;
+  justify-content: space-around;
+	transition: all .2s ease-in-out;
+}
+.pwcd-icon img:hover { opacity: 0.4; }
+
+.contact-form {
+  max-width: 900px;
+  margin: auto;
+}
+
+.so-widget-sow-contact-form-default-29afad014f33 .sow-contact-form .sow-submit-styled .sow-submit {
+  font-weight: 300;
+  padding-top: 30px;
+}
